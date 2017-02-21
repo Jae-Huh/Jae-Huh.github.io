@@ -25,7 +25,7 @@ h1 {
   font-size: 2.2em;
 }
 
-.blog {
+.blog-list {
   background-color: #ffffff;
   height: 150px;
   width: 60%;
@@ -40,7 +40,17 @@ h2 {
   font-size: 1.8em;
 }
 
-ul {
+.frontpage {
   font-size: 1em;
   list-style-type: none;
 }
+
+/* blog page styling */
+.blog-post {
+  background-color: #ffffff;
+  height: 500px;
+  width: 60%;
+  border-radius: 15px;
+  margin: 40px auto;
+  padding: 30px;
+  display: block;
