@@ -10,9 +10,10 @@ body {
 
 .header {
   width: 100%;
-  height: 350px;
-  background: url("images/header-img.jpg");
+  height: 400px;
+  background: url("../images/header-img.jpg");
   background-size: cover;
+  background-position: 50% 15%;
   display: flex;
   align-items: center;
 }
