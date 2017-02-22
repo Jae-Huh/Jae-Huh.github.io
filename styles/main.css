@@ -45,6 +45,7 @@ h2 {
   margin: 0;
   font-size: 1.8em;
   text-align: center;
+  padding: 20px 0;
 }
 
 .frontpage {
@@ -74,3 +75,8 @@ li {
   margin: 80px auto;
   padding: 30px;
   display: block;
+}
+
+.date {
+  text-align: right;
+}
