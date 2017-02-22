@@ -25,32 +25,52 @@ h1 {
   font-size: 2.2em;
 }
 
+hr {
+  margin-left: 0;
+  max-width: 100%;
+}
+
 .blog-list {
   background-color: #ffffff;
-  height: 150px;
+  min-height: 200px;
   width: 60%;
   border-radius: 15px;
-  margin: 40px auto;
+  margin: 60px auto;
   padding: 30px;
   display: block;
+  overflow: auto;
 }
 
 h2 {
   margin: 0;
   font-size: 1.8em;
+  text-align: center;
 }
 
 .frontpage {
   font-size: 1em;
   list-style-type: none;
+  line-height: 150%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EEADB6;
+}
+
+li {
+  font-weight: bold;
 }
 
 /* blog page styling */
 .blog-post {
   background-color: #ffffff;
-  height: 500px;
+  min-height: 500px;
   width: 60%;
   border-radius: 15px;
-  margin: 40px auto;
+  margin: 80px auto;
   padding: 30px;
   display: block;
