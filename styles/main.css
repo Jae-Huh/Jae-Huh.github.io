@@ -1,10 +1,14 @@
+html, div {
+  box-sizing: border-box;
+}
+
 .main {
   display: flex;
 }
 
 .left {
   width: 40%;
-  background-image: url(../images/main-img.jpeg);
+  background-image: url(../images/main-img-sm.jpg);
   background-size: cover;
   background-position: 50% 50%;
   height: 100vh;
@@ -88,6 +92,75 @@
 /*Right half of the pages*/
 .right {
   width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow-y: auto;
   height: 100vh;
+  background-color: #d6d6d6;
+  /*background-image: linear-gradient( #fdefd2 15%, #de8991 40%, #955f79 70%, #835974 90%, #151422 100%);*/
+}
+
+/*.blog-list {
+  background-color: #ffffff;
+  min-height: 200px;
+  width: 60%;
+  border-radius: 15px;
+  margin: 60px auto;
+  padding: 30px;
+  display: block;
+  overflow: auto;
+}*/
+
+.inner-container {
+  display: flex;
+  width: 80%;
+  min-height: 80vh;
+  margin: 20px;
+  background-color: white;
+  box-shadow: 3px 3px 5px 0px rgba(176,176,176,1);
+  border-radius: 1%;
+}
+
+.ribbon
+{
+	position: relative;
+	width: 30%;
+	padding: 6px 20px 6px 70px;
+	margin: 30px 10px 10px -20px;
+	color: #555;
+	background-color: #999;
+	text-shadow: 0px 1px 2px #bbb;
+	box-shadow: 0px 2px 4px #888;
+}
+
+.ribbon:after
+{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 0px;
+	top: 100%;
+	border-width: 5px 10px;
+	border-style: solid;
+	border-color: #666 #666 transparent transparent;
+}
+
+.homepage h1 {
+  font-size: 2.5em;
+}
+
+.intro-text {
+  font-weight: bold;
+}
+
+.email::after {
+  content: 'jaeeunhuh@gmail.com'
+}
+
+.jaepic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
