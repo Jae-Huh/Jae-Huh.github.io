@@ -165,14 +165,15 @@ html, div {
   width: 60%;
   overflow-y: auto;
   height: 100vh;
-  background-color: #280032;
+  background-color: #e8e7e7
+  /*background-color: #280032;*/
 }
 
 .inner-container {
   display: flex;
   width: 80%;
   min-height: 80vh;
-  margin: 20px auto;
+  margin: 70px auto;
   background-color: white;
   box-shadow: 3px 3px 5px 0px rgba(176,176,176,1);
   border-radius: 1%;
@@ -186,7 +187,7 @@ html, div {
 	padding: 6px 30px 6px 30px;
 	margin: 40px 10px 10px -20px;
 	color: #ffffff;
-	background-color: #f4a133;
+  background-color: #0D6785;
 	box-shadow: 2px 2px 2px 0px rgba(176,176,176,1);
 }
 
@@ -238,4 +239,7 @@ html, div {
 
 .right-main .date {
   text-align: right;
+  font-style: italic;
+  font-size: 0.9em;
+  color: #838383;
 }
