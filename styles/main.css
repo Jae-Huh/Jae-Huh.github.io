@@ -16,22 +16,33 @@ html, div {
   flex-direction: column;
 }
 
-.menu {
+.menu-button {
   height: 50px;
   padding-left: 10px;
 }
 
 .menu-display {
+  position: absolute;
+  top: 50px;
+  height: calc(100vh - 150px);
+  width: 40%;
+}
+
+.menu {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 300px);
+  height: 100%;
   font-size: 1.2em;
 }
 
 .menu-list {
   list-style-type: none;
   padding: 0;
+}
+
+.menu-list > li {
+  padding: 5px 0;
 }
 
 .menu-list a {
@@ -52,7 +63,7 @@ html, div {
   display: flex;
   flex-direction: column;
   height: calc(100vh - 50px);
-  opacity: 0;
+  display: none;
 }
 
 .main-text {
