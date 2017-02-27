@@ -34,6 +34,15 @@ html, div {
   padding: 0;
 }
 
+.menu-list a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu-list a:hover {
+  color: orange;
+}
+
 .blog-list {
   list-style-type: none;
   padding-left: 20px;
@@ -43,7 +52,7 @@ html, div {
   display: flex;
   flex-direction: column;
   height: calc(100vh - 50px);
-  display: none;
+  opacity: 0;
 }
 
 .main-text {
@@ -181,7 +190,7 @@ html, div {
   margin: 40px 40px 0 0;
 }
 
-a {
+.about-text a {
   text-decoration: none;
   color: #296B9D;
 }
