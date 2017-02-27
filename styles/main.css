@@ -1,83 +1,245 @@
-* {
-  font-family: Helvetica;
+html, div {
+  box-sizing: border-box;
 }
 
-body {
-  padding: 0;
-  margin: 0;
-  background-color: #D8DCE4;
-}
-
-.header {
-  width: 100%;
-  height: 400px;
-  background: url("../images/header-img.jpg");
-  background-size: cover;
-  background-position: 50% 15%;
+.container {
   display: flex;
+}
+
+.left {
+  width: 40%;
+  background-image: url(../images/main-img-sm.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.dark-background {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(../images/main-img-sm.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.menu-button-container {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.fakeLink {
+  cursor: pointer;
+}
+
+.fakeLink:hover {
+  color: orange;
+}
+
+.menu-display {
+  position: absolute;
+  top: 50px;
+  height: calc(100vh - 150px);
+  width: 40%;
+  opacity: 0;
+  transition: opacity 0.3s;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
   align-items: center;
-}
-
-h1 {
-  color: #ffffff;
-  max-width: 70%;
-  padding: 0 50px;
-  background: none;
-  font-size: 2.2em;
-}
-
-hr {
-  margin-left: 0;
-  max-width: 100%;
-}
-
-.blog-list {
-  background-color: #ffffff;
-  min-height: 200px;
-  width: 60%;
-  border-radius: 15px;
-  margin: 60px auto;
-  padding: 30px;
-  display: block;
-  overflow: auto;
-}
-
-h2 {
-  margin: 0;
-  font-size: 1.8em;
-  text-align: center;
-  padding: 20px 0;
-}
-
-.frontpage {
-  font-size: 1em;
-  list-style-type: none;
-  line-height: 150%;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  color: #EEADB6;
-}
-
-li {
+  height: 100%;
+  font-size: 1.3em;
   font-weight: bold;
 }
 
-/* blog page styling */
-.blog-post {
-  background-color: #ffffff;
-  min-height: 500px;
-  width: 60%;
-  border-radius: 15px;
-  margin: 80px auto;
-  padding: 30px;
-  display: block;
+.menu-list {
+  list-style-type: none;
+  padding: 0;
 }
 
-.date {
+.menu-list > li {
+  padding: 5px 0;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu-list a:hover {
+  color: orange;
+}
+
+.blog-list {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 50px);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.visible {
+  opacity: 1;
+  z-index: 10;
+}
+
+.main-text {
+  justify-content: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-text h1 {
+  text-align: center;
+  color: black
+}
+
+.awesome {
+  -webkit-animation:colorchange 10s infinite;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: blueviolet;
+  }
+  10% {
+    color: red;
+  }
+  20% {
+    color: dodgerblue;
+  }
+  30% {
+    color: green;
+  }
+  40% {
+    color: deeppink;
+  }
+  50% {
+    color: indigo;
+  }
+  60% {
+    color: orangered;
+  }
+  70% {
+    color: blue;
+  }
+  80% {
+    color: magenta;
+  }
+  90% {
+    color: orange;
+  }
+  100% {
+    color: darkviolet;
+  }
+}
+
+.icons {
+  align-self: flex-end;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons a {
+  margin: 10px;
+  font-size: 30px;
+  color: white;
+}
+
+/*Right half of the pages*/
+.right {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+  overflow-y: auto;
+  height: 100vh;
+  background-color: #280032;
+}
+
+.inner-container {
+  display: flex;
+  width: 80%;
+
+  min-height: 80vh;
+  margin: 20px;
+  background-color: white;
+  box-shadow: 3px 3px 5px 0px rgba(176,176,176,1);
+  border-radius: 1%;
+}
+
+.ribbon {
+	position: relative;
+  width: 150px;
+  text-align: center;
+	/*width: 30%;*/
+	padding: 6px 30px 6px 30px;
+	margin: 40px 10px 10px -20px;
+	color: #ffffff;
+	background-color: #f4a133;
+	box-shadow: 2px 2px 2px 0px rgba(176,176,176,1);
+}
+
+.ribbon:after {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 0px;
+	top: 100%;
+	border-width: 5px 10px;
+	border-style: solid;
+	border-color: #666 #666 transparent transparent;
+}
+
+.right-main {
+  padding: 0 50px;
+}
+
+.inner-container h1 {
+  font-size: 2.5em;
+  color: #E32F52;
+  margin: 30px 0 10px 0;
+}
+
+.intro-text {
+  font-weight: bold;
+}
+
+.email::after {
+  content: 'jaeeunhuh@gmail.com'
+}
+
+.jaepic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: 40px 40px 0 0;
+}
+
+.right-main a {
+  text-decoration: none;
+  color: #296B9D;
+}
+
+.right-main li {
+  font-weight: bold;
+}
+
+.right-main .date {
   text-align: right;
 }
