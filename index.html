@@ -12,13 +12,13 @@
   <body>
     <div class="container">
       <div class="left">
-        <div class="menu-button">
-          <h3>MENU</h3>
+        <div class="menu-button-container">
+          <h3 id="menu-btn" class="fakeLink">MENU</h3>
         </div>
         <div class="menu-display">
           <div class="menu">
             <ul class="menu-list">
-              <li>HOME</li>
+              <li><a href="index.html">HOME</a></li>
               <li>
                 BLOG
                 <ul class="blog-list">
@@ -30,7 +30,7 @@
             </ul>
           </div>
         </div>
-        <div class="left-container">
+        <div class="left-container visible">
           <div class="main-text">
             <h1>Jae</h1>
             <h1>The Most <span class="awesome">Awesome</span> Web Dev<br />in the Making</h1>
@@ -53,12 +53,12 @@
       </div>
 
       <div class="right">
-        <div class="inner-container homepage">
+        <div class="inner-container">
           <div>
             <div>
               <h2 class="ribbon">ABOUT</h2>
             </div>
-            <div class="about-text">
+            <div class="right-main">
               <h1>H E L L O</h1>
               <hr />
               <p class="intro-text">My name is Jae, and I'm a student at Enspiral Dev Academy learning web development.</p>
@@ -73,5 +73,6 @@
       </div>
     </div>
     <script src="http://localhost:35729/livereload.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
