@@ -163,9 +163,6 @@ html, div {
 /*Right half of the pages*/
 .right {
   width: 60%;
-  display: flex;
-  justify-content: center;
-  /*align-items: center;*/
   overflow-y: auto;
   height: 100vh;
   background-color: #280032;
@@ -174,9 +171,8 @@ html, div {
 .inner-container {
   display: flex;
   width: 80%;
-
   min-height: 80vh;
-  margin: 20px;
+  margin: 20px auto;
   background-color: white;
   box-shadow: 3px 3px 5px 0px rgba(176,176,176,1);
   border-radius: 1%;
