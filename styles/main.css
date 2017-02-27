@@ -2,7 +2,7 @@ html, div {
   box-sizing: border-box;
 }
 
-.main {
+.container {
   display: flex;
 }
 
@@ -20,13 +20,18 @@ html, div {
   height: 50px;
   padding-left: 10px;
 }
+/*
+.left-inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}*/
 
 .main-text {
   justify-content: center;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  /*-webkit-text-stroke: 1px purple;*/
 }
 
 .main-text h1 {
@@ -97,7 +102,7 @@ html, div {
   align-items: center;
   overflow-y: auto;
   height: 100vh;
-  background-color: #d6d6d6;
+  background-color: #FFFCE2;
   /*background-image: linear-gradient( #fdefd2 15%, #de8991 40%, #955f79 70%, #835974 90%, #151422 100%);*/
 }
 
@@ -128,10 +133,9 @@ html, div {
 	width: 30%;
 	padding: 6px 20px 6px 70px;
 	margin: 30px 10px 10px -20px;
-	color: #555;
-	background-color: #999;
-	text-shadow: 0px 1px 2px #bbb;
-	box-shadow: 0px 2px 4px #888;
+	color: #ffffff;
+	background-color: #f4a133;
+	box-shadow: 2px 2px 2px 0px rgba(176,176,176,1);
 }
 
 .ribbon:after
@@ -147,8 +151,14 @@ html, div {
 	border-color: #666 #666 transparent transparent;
 }
 
+.about-text {
+  padding: 0 30px;
+}
+
 .homepage h1 {
   font-size: 2.5em;
+  color: #E32F52;
+  margin: 30px 0 10px 0;
 }
 
 .intro-text {
@@ -160,7 +170,13 @@ html, div {
 }
 
 .jaepic {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
+  margin: 30px 30px 0 0;
+}
+
+a {
+  text-decoration: none;
+  color: #296B9D;
 }
