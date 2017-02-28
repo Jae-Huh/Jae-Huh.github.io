@@ -207,8 +207,12 @@ html, div {
   padding: 0 50px;
 }
 
+.inner-container .hello {
+  font-size: 2.8em;
+}
+
 .inner-container h1 {
-  font-size: 2.5em;
+  font-size: 2em;
   color: #E32F52;
   margin: 30px 0 10px 0;
 }
@@ -235,6 +239,18 @@ html, div {
 
 .right-main li {
   font-weight: bold;
+}
+
+/*.blog-title {
+  font-size: 1em;
+}*/
+
+.blog-content li {
+  margin-top: 25px;
+}
+
+.blog-content p {
+  margin: 10px;
 }
 
 .right-main .date {
