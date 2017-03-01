@@ -63,7 +63,7 @@ html, div {
 }
 
 .menu-list > li {
-  padding: 5px 0;
+  padding: 7px 0;
 }
 
 .menu-list a {
@@ -78,6 +78,10 @@ html, div {
 .blog-list {
   list-style-type: none;
   padding-left: 20px;
+}
+
+.blog-list li {
+  padding: 2px 0;
 }
 
 .left-container {
