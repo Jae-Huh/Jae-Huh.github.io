@@ -245,9 +245,9 @@ html, div {
   font-weight: bold;
 }
 
-/*.blog-title {
-  font-size: 1em;
-}*/
+.blog-additional-info {
+  color: #6b6b6b
+}
 
 .blog-content li {
   margin-top: 25px;
