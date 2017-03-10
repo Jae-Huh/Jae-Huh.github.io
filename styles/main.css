@@ -18,13 +18,25 @@
   margin: 20px;
 }
 
+.fake-link {
+  cursor: pointer;
+}
+
+.fake-link:hover {
+  color: orange;
+}
+
+#menu-btn a {
+  text-decoration: none;
+  color: black;
+}
+
 .menu-display {
   position: absolute;
   opacity: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30%;
   height: 70vh;
   font-size: 1.3em;
   font-weight: bold;
@@ -45,6 +57,10 @@
 .menu-list li a {
   text-decoration: none;
   color: inherit;
+}
+
+.menu-list a:hover {
+  color: orange;
 }
 
 .blog-list {
@@ -79,7 +95,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 65vh;
   margin: 30px;
 }
 
@@ -129,12 +145,10 @@
   }
 }
 
-.icons {
-  text-align: center;
-  /*display: flex;
-  align-self: flex-end;
+.icon-container {
+  display: flex;
   justify-content: center;
-  align-items: center;*/
+  align-items: flex-end;
 }
 
 .icons a {
@@ -146,6 +160,7 @@
   font-size: 2.2em;
   margin: 10px;
 }
+
 
 .right {
   /*overflow-y: auto;*/
@@ -265,6 +280,11 @@ p {
     width: 66.667%;
     margin: 0;
   }
+
+  .menu-display {
+    width: 33%;
+  }
+
   .right {
     overflow-y: auto;
   }
@@ -275,10 +295,12 @@ p {
   html {
     background-color: #e8e7e7
   }
+
+  .menu-display {
+    width: 100%;
+  }
+
   .jaepic {
     display: none;
   }
-  /*.right {
-    overflow-y: auto;
-  }*/
 }
