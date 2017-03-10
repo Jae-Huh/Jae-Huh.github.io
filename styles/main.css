@@ -303,4 +303,9 @@ p {
   .jaepic {
     display: none;
   }
+
+  .inner-container {
+    width: 90%;
+    padding-bottom: 40px;
+  }
 }
