@@ -1,16 +1,90 @@
-* {
-  border: 1px solid black;
-}
+
 
 .left {
   background-image: url(../images/main-img-sm.jpg);
   background-size: cover;
   background-position: 50% 50%;
+  height: 100vh;
 }
 
 .right {
   background: yellow;
   height: 100vh;
+}
+
+.menu-btn {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.main-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+  margin: 30px;
+}
+
+.main-text h1 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.awesome {
+  -webkit-animation:colorchange 10s infinite;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: blueviolet;
+  }
+  10% {
+    color: red;
+  }
+  20% {
+    color: dodgerblue;
+  }
+  30% {
+    color: green;
+  }
+  40% {
+    color: deeppink;
+  }
+  50% {
+    color: indigo;
+  }
+  60% {
+    color: orangered;
+  }
+  70% {
+    color: blue;
+  }
+  80% {
+    color: magenta;
+  }
+  90% {
+    color: orange;
+  }
+  100% {
+    color: darkviolet;
+  }
+}
+
+.icons {
+  text-align: center;
+}
+
+.icons a {
+  color: transparent;
+}
+
+.icons i {
+  color: white;
+  font-size: 2.3em;
+  margin: 7px;
 }
 
 /*desktop*/
@@ -25,16 +99,16 @@
     margin: 0;
   }
 
-  .left {
+  /*.left {
     height: 100vh;
-  }
+  }*/
 }
 
 /*mobile*/
 @media (max-width: 549px) {
-  .left {
-    height: 400px;
-  }
+  /*.left {
+    height: 100vh;
+  }*/
 
   .right {
     background-color: red !important;
