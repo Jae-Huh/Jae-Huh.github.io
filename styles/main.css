@@ -147,21 +147,8 @@
   margin: 10px;
 }
 
-/*desktop*/
-@media (min-width: 550px) {
-  .four.columns.four-no-margin {
-    width: 33.333%;
-    margin: 0;
-  }
-
-  .eight.columns.eight-no-margin {
-    width: 66.667%;
-    margin: 0;
-  }
-}
-
 .right {
-  overflow-y: auto;
+  /*overflow-y: auto;*/
   height: 100vh;
   background-color: #e8e7e7
 }
@@ -267,10 +254,28 @@ p {
   margin-bottom: 30px;
 }
 
+/*desktop*/
+@media (min-width: 550px) {
+  .four.columns.four-no-margin {
+    width: 33.333%;
+    margin: 0;
+  }
+
+  .eight.columns.eight-no-margin {
+    width: 66.667%;
+    margin: 0;
+  }
+  .right {
+    overflow-y: auto;
+  }
+}
 
 /*mobile*/
 @media (max-width: 549px) {
-  .right {
-
+  html {
+    background-color: #e8e7e7
   }
+  /*.right {
+    overflow-y: auto;
+  }*/
 }
