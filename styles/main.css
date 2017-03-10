@@ -39,6 +39,7 @@
   font-size: 1.3em;
   font-weight: bold;
   color: white;
+  display: none;
 }
 
 .menu-list {
@@ -91,6 +92,7 @@
 .visible {
   opacity: 1;
   z-index: 10;
+  display: flex;
 }
 
 .main-text {
@@ -98,7 +100,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 65vh;
+  height: 60vh;
   margin: 30px;
 }
 
@@ -313,4 +315,28 @@ p {
     width: 90%;
     padding-bottom: 20px;
   }
+}
+
+/* Small height */
+@media  (max-height: 400px) {
+  .main-text h1 {
+    font-size: 1.5em;
+  }
+
+  .main-text {
+    margin: 0;
+  }
+
+  .main-display {
+    overflow: auto;
+  }
+
+  .icon-container {
+    display: none;
+  }
+
+  .menu-display {
+    overflow: auto;
+  }
+
 }
