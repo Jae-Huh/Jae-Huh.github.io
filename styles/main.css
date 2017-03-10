@@ -1,0 +1,42 @@
+* {
+  border: 1px solid black;
+}
+
+.left {
+  background-image: url(../images/main-img-sm.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.right {
+  background: yellow;
+  height: 100vh;
+}
+
+/*desktop*/
+@media (min-width: 550px) {
+  .four.columns.four-no-margin {
+    width: 33.333%;
+    margin: 0;
+  }
+
+  .eight.columns.eight-no-margin {
+    width: 66.667%;
+    margin: 0;
+  }
+
+  .left {
+    height: 100vh;
+  }
+}
+
+/*mobile*/
+@media (max-width: 550px) {
+  .left {
+    height: 400px;
+  }
+
+  .right {
+
+  }
+}
