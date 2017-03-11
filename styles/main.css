@@ -257,7 +257,7 @@ hr {
   margin-left: 15px;
 }
 
-.blog-content li {
+.blog-content > li {
   margin: 25px 10px 0 15px;
   list-style: none;
   font-size: 1.1em;
@@ -295,6 +295,10 @@ p {
   .right {
     overflow-y: auto;
   }
+}
+
+.wireframe {
+  width: 330px;
 }
 
 /*mobile*/
