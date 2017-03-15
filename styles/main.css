@@ -301,6 +301,10 @@ p {
   width: 100%;
 }
 
+.italic {
+  font-style: italic;
+}
+
 /*mobile*/
 @media (max-width: 549px) {
   html {
