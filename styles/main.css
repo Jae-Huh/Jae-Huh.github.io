@@ -264,6 +264,12 @@ hr {
   font-weight: bold;
 }
 
+.inner-blog-list > li{
+  list-style-position: outside;
+  margin-left: 25px;
+  font-size: 1.1em;
+}
+
 p {
   margin: 7px 25px;
 }
@@ -274,6 +280,19 @@ p {
   font-size: 0.9em;
   color: #838383;
   margin-bottom: 30px;
+}
+
+.wireframe {
+  width: 100%;
+}
+
+.code-block {
+  border: 1px solid #d2d2d2;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  font-size: 95%;
+  padding: 3px 5px;
+  font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New;
 }
 
 /*desktop*/
@@ -297,18 +316,6 @@ p {
   }
 }
 
-.wireframe {
-  width: 100%;
-}
-
-.code-block {
-  border: 1px solid #d2d2d2;
-  border-radius: 3px;
-  background-color: #f6f6f6;
-  font-size: 95%;
-  padding: 3px 5px;
-  font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New;
-}
 
 /*mobile*/
 @media (max-width: 549px) {
