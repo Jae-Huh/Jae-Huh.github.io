@@ -301,8 +301,13 @@ p {
   width: 100%;
 }
 
-.italic {
-  font-style: italic;
+.code-block {
+  border: 1px solid #c1c1c1;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  font-size: 95%;
+  padding: 3px 5px;
+  font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New;
 }
 
 /*mobile*/
