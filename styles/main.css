@@ -236,6 +236,10 @@ hr {
   margin: 15px;
 }
 
+.intro-last {
+  margin-bottom: 50px;
+}
+
 .email::after {
   content: 'jaeeunhuh@gmail.com'
 }
