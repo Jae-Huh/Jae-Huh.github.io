@@ -286,6 +286,14 @@ p {
   width: 100%;
 }
 
+/*code {
+  overflow-x: scroll;
+  max-width: 35vw;
+}*/
+
+/*li > .cp_embed_wrapper {
+  width: 80%;
+}*/
 
 
 .code-comment {

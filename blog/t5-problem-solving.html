@@ -122,36 +122,16 @@
                   <ul class="inner-blog-list">
                     <li>
                       <code>.map()</code> - Returns a new array (a list of items) that contains new values after a function modifies every element in the original array.
-<pre><code>var names = ["jae", "rowan", "michael", "chelsea"];
-
-<em class="code-comment">// replaces the first character of the names with upper case</em>
-names.map(function(val) {
-  return val.replace(val[0], val[0].toUpperCase);
-})
-
-<em class="code-comment">// returns ["Jae", "Rowan", "Michael", "Chelsea"]</em></code></pre>
+<!-- When embedding Codepen, make sure to add the script tag at the end of the body!!! -->
+                      <p data-height="265" data-theme-id="0" data-slug-hash="PpeyNO" data-default-tab="js" data-user="Jae-Huh" data-embed-version="2" data-pen-title="La" class="codepen">See the Pen <a href="https://codepen.io/Jae-Huh/pen/PpeyNO/">La</a> by Jae Huh (<a href="http://codepen.io/Jae-Huh">@Jae-Huh</a>) on <a href="http://codepen.io">CodePen</a>.</p>
                     </li>
                     <li>
                       <code>.filter()</code> - Creates a new array with the elements that satisfy the condition that is given in a function.
-<pre><code>var numbers = [23954, 1238, 6349, 3345, 680, 197, 7533];
-
-<em class="code-comment">// filters through the numbers to find odd numbers and keep only those numbers in the new array</em>
-numbers.filter(function(num){
-  return num % 2 !== 0;
-})
-
-<em class="code-comment">//returns [6349, 3345, 197, 7533]</em></code></pre>
+                      <p data-height="265" data-theme-id="0" data-slug-hash="oZdaGB" data-default-tab="js" data-user="Jae-Huh" data-embed-version="2" data-pen-title=".filter() example" class="codepen">See the Pen <a href="https://codepen.io/Jae-Huh/pen/oZdaGB/">.filter() example</a> by Jae Huh (<a href="http://codepen.io/Jae-Huh">@Jae-Huh</a>) on <a href="http://codepen.io">CodePen</a>.</p>
                     </li>
                     <li>
                       <code>.reduce()</code> - Iterates through elements in an array in order, and returns only one value that's been reduced using a provided function.
-<pre><code>var numDays = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-
-<em class="code-comment">// numDays contains how many days there are in each month. To find out how many days there are in a year, we can use .reduce() to find the sum</em>
-numDays.reduce(function(a, b){
-  return a + b;
-})
-
-<em class="code-comment">//returns 365</em></code></pre>
+                      <p data-height="265" data-theme-id="0" data-slug-hash="qrYJxq" data-default-tab="js" data-user="Jae-Huh" data-embed-version="2" data-pen-title=".reduce() example" class="codepen">See the Pen <a href="https://codepen.io/Jae-Huh/pen/qrYJxq/">.reduce() example</a> by Jae Huh (<a href="http://codepen.io/Jae-Huh">@Jae-Huh</a>) on <a href="http://codepen.io">CodePen</a>.</p>
                     </li>
                   </ul>
                 </p>
@@ -165,5 +145,6 @@ numDays.reduce(function(a, b){
     </div>
   </div>
   <script src="../script.js"></script>
+  <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 </body>
 </html>
