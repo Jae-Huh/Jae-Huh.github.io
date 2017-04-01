@@ -1,7 +1,7 @@
 var menuButton = document.querySelector('#menu-btn');
-var menuDisplay = document.querySelector(".menu-display");
-var withoutMenu = document.querySelector(".main-display");
-var left = document.querySelector(".left")
+var menuDisplay = document.querySelector('.menu-display');
+var withoutMenu = document.querySelector('.main-display');
+var left = document.querySelector('.left')
 
 menuButton.addEventListener('click', function(){
   menuDisplay.classList.toggle('visible');
