@@ -75,7 +75,7 @@ function generateMenu() {
   }
 
   //lists cultural blog
-  for (var i = 0; i < menu[1].length; i++) {
+  for (var i = 0; i < menu[2].length; i++) {
     document.querySelector('#cultural').innerHTML += '<li><a href="' + menu[2][i].href + '">' + menu[2][i].title + '</a></li>'
   }
 }
