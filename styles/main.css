@@ -276,6 +276,12 @@ hr {
   font-weight: bold;
 }
 
+.projects-content > li {
+  margin: 20px 15px 0 15px;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
 .inner-blog-list > li{
   list-style-position: outside;
   margin-left: 25px;
