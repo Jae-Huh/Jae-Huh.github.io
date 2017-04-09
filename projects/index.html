@@ -68,9 +68,8 @@
             <div class="right-main">
               <h1>List of Projects</h1>
               <hr />
-              <ul class="projects-content">
-                <li>Minesweeper</li>
-                <li>Random Maori Proverb</li>
+              <ul class="projects-content" id="project-list">
+
               </ul>
               <br />
             </div>
@@ -85,7 +84,7 @@
   function generateProjectList() {
     //lists projects
     for (var i = 0; i < menu[3].length; i++) {
-      document.querySelector('#technical-list').innerHTML += '<li><a href="' + menu[3][i].href + '">' + menu[3][i].title + '</a></li>'
+      document.querySelector('#project-list').innerHTML += '<li><a href="' + menu[3][i].href + '">' + menu[3][i].title + '</a></li>'
     }
   }
   generateProjectList()
