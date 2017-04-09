@@ -82,7 +82,13 @@
   <script src="../menu.js"></script>
   <script src="../script.js"></script>
   <script>
-
+  function generateProjectList() {
+    //lists projects
+    for (var i = 0; i < menu[3].length; i++) {
+      document.querySelector('#technical-list').innerHTML += '<li><a href="' + menu[3][i].href + '">' + menu[3][i].title + '</a></li>'
+    }
+  }
+  generateProjectList()
   </script>
 </body>
 </html>
