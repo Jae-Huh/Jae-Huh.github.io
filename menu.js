@@ -65,7 +65,16 @@ var menu = [
     href: '/blog/c7-motivation.html'
   }
   ],
-  // [] for projects
+  [
+    {
+      title: 'Minesweeper',
+      href: '/projects/minesweeper.html'
+    },
+    {
+      title: 'Random Maori Proverb',
+      href: '/projects/random-maori-proverb.html'
+    }
+  ]
 ]
 
 
@@ -81,6 +90,11 @@ function generateMenu() {
   //lists cultural blog
   for (var i = 0; i < menu[2].length; i++) {
     document.querySelector('#cultural').innerHTML += '<li><a href="' + menu[2][i].href + '">' + menu[2][i].title + '</a></li>'
+  }
+
+  //lists projects
+  for (var i = 0; i < menu[3].length; i++) {
+    document.querySelector('#projects').innerHTML += '<li><a href="' + menu[3][i].href + '">' + menu[3][i].title + '</a></li>'
   }
 }
 
