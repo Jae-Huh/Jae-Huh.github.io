@@ -60,10 +60,14 @@ var menu = [
       title: 'Control',
       href: '/blog/c6-control.html'
     },
-  {
-    title: 'Motivation',
-    href: '/blog/c7-motivation.html'
-  }
+    {
+      title: 'Motivation',
+      href: '/blog/c7-motivation.html'
+    },
+    {
+      title: 'Connecting',
+      href: '/blog/c8-connecting.html'
+    }
   ],
   [
     {
