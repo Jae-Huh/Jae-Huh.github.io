@@ -29,6 +29,10 @@ var menu = [
     {
       title: 'JavaScript Language',
       href: '/blog/t6-js-language.html'
+    },
+    {
+      title: 'Scope',
+      href: '/blog/t6-scope.html'
     }
   ],
   [
