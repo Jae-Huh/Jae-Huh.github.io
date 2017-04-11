@@ -32,7 +32,7 @@ var menu = [
     },
     {
       title: 'Scope',
-      href: '/blog/t6-scope.html'
+      href: '/blog/t7-scope.html'
     }
   ],
   [
