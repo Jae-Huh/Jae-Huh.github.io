@@ -71,15 +71,22 @@
               <ul class="blog-content">
                 <li> What is 'scope', and how does it work in JavaScript?</li>
                 <p>
-                  Scope in programming is the visibility and accessability of variables. There are two scopes in JavaScript: global and local, depending on where the variables are declared.
+                  Scope in programming refers to the visibility and accessability of variables. There are two scopes in JavaScript: global and local, and not all varilables are accessible and modifiable throughout the code depending on where the variables are declared.
                 </p>
-                <li></li>
                 <p>
-
+                  A variable that is declared outside a function has global scope, and is accessible and can be altered in other loops or functions.
                 </p>
+                <p>
+                  A local-scoped variable is defined inside a function, and can only be accessible within that function. For this reason, a local variable may have the same name as a global variable but have different values.
+                </p>
+                <p data-height="265" data-theme-id="0" data-slug-hash="XRWZKe" data-default-tab="js" data-user="Jae-Huh" data-embed-version="2" data-pen-title="scope" class="codepen">See the Pen <a href="https://codepen.io/Jae-Huh/pen/XRWZKe/">scope</a> by Jae Huh (<a href="http://codepen.io/Jae-Huh">@Jae-Huh</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+                <p>
+                  In ES6, <code>let</code> and <code>const</code> were introduced, and using these, curly braces <code>{...}</code> can define a block level scope.
+                </p>
+                <p data-height="265" data-theme-id="0" data-slug-hash="pPoaeR" data-default-tab="js" data-user="Jae-Huh" data-embed-version="2" data-pen-title="block level scope" class="codepen">See the Pen <a href="https://codepen.io/Jae-Huh/pen/pPoaeR/">block level scope</a> by Jae Huh (<a href="http://codepen.io/Jae-Huh">@Jae-Huh</a>) on <a href="http://codepen.io">CodePen</a>.</p>
               </ul>
               <br />
-              <p class="date">Posted on ___________ 2017</p>
+              <p class="date">Posted on 13 April 2017</p>
             </div>
           </div>
         </div>
@@ -88,5 +95,6 @@
   </div>
   <script src="../menu.js"></script>
   <script src="../script.js"></script>
+  <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 </body>
 </html>
