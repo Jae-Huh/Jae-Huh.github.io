@@ -71,6 +71,10 @@ var menu = [
     {
       title: 'Connecting',
       href: '/blog/c8-connecting.html'
+    },
+    {
+      title: 'Leadership',
+      href: '/blog/c9-leadership.html'
     }
   ],
   [
