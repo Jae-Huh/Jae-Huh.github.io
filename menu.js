@@ -85,6 +85,14 @@ var menu = [
     {
       title: 'Random Maori Proverb',
       href: '/projects/random-maori-proverb.html'
+    },
+    {
+      title: 'JavaScript Calculator',
+      href: '/projects/js-calculator.html'
+    },
+    {
+      title: 'Fruity',
+      href: '/projects/fruity.html'
     }
   ]
 ]
