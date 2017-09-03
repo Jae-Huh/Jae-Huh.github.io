@@ -231,7 +231,6 @@ hr {
 }
 
 .intro-text {
-  font-weight: bold;
   width: 70%;
 }
 
@@ -239,13 +238,12 @@ hr {
   margin: 15px;
 }
 
-.intro-last {
-  margin-bottom: 50px;
+.intro-important {
+  font-weight: bold;
 }
 
-.intro-comment {
-  font-style: oblique;
-  text-decoration: underline;
+.intro-last {
+  margin-bottom: 50px;
 }
 
 .email::after {
