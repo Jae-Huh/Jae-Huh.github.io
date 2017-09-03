@@ -243,6 +243,11 @@ hr {
   margin-bottom: 50px;
 }
 
+.intro-comment {
+  font-style: oblique;
+  text-decoration: underline;
+}
+
 .email::after {
   content: 'jaeeunhuh@gmail.com'
 }
